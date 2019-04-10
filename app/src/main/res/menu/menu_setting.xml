@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/rate"
+    android:title="Rate The App"
+    android:icon="@drawable/ic_rate_review_black_24dp"
+    app:showAsAction="never"
+
+    />
+
+    <item
+        android:id="@+id/about"
+        android:title="About The App"
+
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/share"
+        android:title="Share App"
+        android:icon="@drawable/ic_share_black_24dp"
+        app:showAsAction="never"
+
+        />
+    <item
+        android:id="@+id/invite"
+        android:title="Invite Others"
+
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/setting"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings_black_24dp"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/set1"
+                android:title=" Security "
+                android:icon="@drawable/ic_security_black_24dp"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/set2"
+                android:title="Help"
+                android:icon="@drawable/ic_help_black_24dp"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/set3"
+                android:title="Notification"
+                android:icon="@drawable/ic_notifications_black_24dp"
+                app:showAsAction="never" />
+
+
+            <item
+                android:id="@+id/set4"
+                android:title="Other"
+                app:showAsAction="never" />
+
+        </menu>
+    </item>
+    <item
+        android:id="@+id/refresh"
+        android:title="Refresh"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        app:showAsAction="never"
+
+        />
+    <item
+        android:id="@+id/logoff"
+        android:title="Sign Out"
+        android:icon="@drawable/logout"
+        app:showAsAction="never"
+        />
+        />
+
+
+
+</menu>
