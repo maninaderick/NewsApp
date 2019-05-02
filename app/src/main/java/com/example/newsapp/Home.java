@@ -48,17 +48,25 @@ Button signout;
         if(id==R.id.invite){
 
             Toast.makeText(this,"Invite Others Clicked",Toast.LENGTH_SHORT).show();
+            Intent intent=new Intent(Intent.ACTION_SEND);
+            intent.setType("text/plain");
+            intent.putExtra("NEWS APP",true);
+            startActivity(Intent.createChooser(intent,"INVITE OTHERS USING ........"));
+            return true;
         }
         if(id==R.id.about){
 
             Toast.makeText(this,"About The App Clicked",Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(this,About.class);
+            startActivity(intent);
         }
         if(id==R.id.share){
+            Toast.makeText(this,"Share App Clicked",Toast.LENGTH_SHORT).show();
             Intent intent=new Intent(Intent.ACTION_SEND);
             intent.setType("text/plain");
             intent.putExtra("NEWS APP",true);
             startActivity(Intent.createChooser(intent,"SHARE THE APP TO OTHERS USING ........"));
-            Toast.makeText(this,"Share App Clicked",Toast.LENGTH_SHORT).show();
+
 
             return true;
 
@@ -67,6 +75,8 @@ Button signout;
         if(id==R.id.rate){
 
             Toast.makeText(this,"Rate The App Clicked",Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(this, RateApp.class);
+            startActivity(intent);
         }
         if(id==R.id.refresh){
 
