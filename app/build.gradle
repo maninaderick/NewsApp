@@ -28,13 +28,13 @@ dependencies {
     implementation 'com.android.support:design:28.0.0'
 
     //libraries
-    complie 'com.android.support:recyclerview-v7:28.+'
-    complie 'com.android.support:cardview-v7:28.+'
-
-    complie 'com.squareup.retrofit2:retrofit:2.3.0'
-    complie 'com.squareup.retrofit2:converter-gson:2.3.0'
-
-    complie 'com.github.d-max:spots.dailog:0.7@aar'
-
-    complie 'com.google.code.gson:gson:2.8.2'
+//    complie 'com.android.support:recyclerview-v7:28.+'
+//    complie 'com.android.support:cardview-v7:28.+'
+//
+//    complie 'com.squareup.retrofit2:retrofit:2.3.0'
+//    complie 'com.squareup.retrofit2:converter-gson:2.3.0'
+//
+//    complie 'com.github.d-max:spots.dailog:0.7@aar'
+//
+//    complie 'com.google.code.gson:gson:2.8.2'
 }
